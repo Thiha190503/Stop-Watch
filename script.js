@@ -2,9 +2,9 @@ const stopWatchTag = document.getElementsByClassName("stopWatch")[0];
 const pauseButtonTag = document.getElementById("pauseButton");
 const continueButtonTag = document.getElementById("continueButton");
 const restartButtonTag = document.getElementById("restartButton");
-let seconds = 00,
-  minutes = 00,
-  hours = 0;
+// let seconds = 00,
+//   minutes = 00,
+//   hours = 0;
 
 const startStopWatch = () => {
   seconds += 1;
